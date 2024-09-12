@@ -10,7 +10,6 @@ body {
     color: #333;
 }
 
-/* Estilo do cabeçalho */
 header {
     background-color: #111;
     color: #fff;
@@ -47,15 +46,16 @@ nav ul li a:hover {
 }
 
 .hero {
-    background-image: url("https://pro.sony/s3/2017/04/08151948/main-banner_1600x450.jpg"); 
-     background-size: cover;
-    background-position: center;
+    background-image: url('hero-background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat;
     height: 100vh;
     color: white;
     padding: 150px 20px;
     text-align: center;
 }
+
 
 
 .hero h2 {
