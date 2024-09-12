@@ -10,6 +10,7 @@ body {
     color: #333;
 }
 
+
 header {
     background-color: #111;
     color: #fff;
@@ -45,44 +46,36 @@ nav ul li a:hover {
     color: #FFD700;
 }
 
+
 .hero {
-    background-image: url('hero-background.jpg'); 
+    background-image: url('/hero-background.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
     color: white;
     padding: 150px 20px;
     text-align: center;
 }
-
-
-
 
 .hero h2 {
     font-size: 3em;
     margin-bottom: 20px;
 }
 
-
-.image-button {
-    background-image: url('https://images.tcdn.com.br/img/img_prod/915391/tricoline_liso_amrelo_ouro_723_1_507a73181b6b0888a8f16b34bfa65a4b.jpg') 
-    background-size: cover; 
-    background-position: center; /
+/* Estilo do botão com imagem */
+.hero button.image-button {
+    background-image: url('images/button-image.jpg');
+    background-size: cover;
+    background-position: center;
     width: 200px;
-    height: 50px;
+    height: 60px;
     border: none;
+    font-size: 1.2em;
     color: white;
-    font-size: 18px;
-    font-weight: bold;
     text-align: center;
-    display: inline-block;
-    line-height: 50px; 
+    line-height: 60px; 
     cursor: pointer;
-    border-radius: 10px; 
-    text-decoration: none;
+    transition: transform 0.3s;
 }
-
 
 .hero button.image-button:hover {
     transform: scale(1.1); 
@@ -118,6 +111,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
+/* Estilo do formulário de contato */
 .contact-form {
     width: 50%;
     margin: 30px auto;
