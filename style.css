@@ -64,20 +64,24 @@ nav ul li a:hover {
 }
 
 
-.hero button.image-button {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALoAAAEPCAMAAADCoC6xAAAAA1BMVEX/8AF6WdgcAAAASElEQVR4nO3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACOBsX1AAEdtddvAAAAAElFTkSuQmCC");
-    background-size: cover;
-    background-position: center;
+.image-button {
+    background-image: url('https://images.tcdn.com.br/img/img_prod/915391/tricoline_liso_amrelo_ouro_723_1_507a73181b6b0888a8f16b34bfa65a4b.jpg') 
+    background-size: cover; 
+    background-position: center; /
     width: 200px;
-    height: 60px;
+    height: 50px;
     border: none;
-    font-size: 1.2em;
     color: white;
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
-    line-height: 60px; 
+    display: inline-block;
+    line-height: 50px; 
     cursor: pointer;
-    transition: transform 0.3s;
+    border-radius: 10px; 
+    text-decoration: none;
 }
+
 
 .hero button.image-button:hover {
     transform: scale(1.1); 
